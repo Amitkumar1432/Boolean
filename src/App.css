@@ -1,0 +1,47 @@
+.circle {
+  text-align: center;
+  line-height: 120px;
+  font-weight: bold;
+  color: white;
+  background-color: #c4c4c4;
+  transition: background-color 0.3s ease, border-radius 0.3s ease;
+  margin: 6px;
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+}
+
+.square {
+  border-radius: 4px 3px 6px;
+}
+
+.circle-inner {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 80px;
+  font-weight: bold;
+  color: white;
+  background-color: green;
+  transition: background-color 0.3s ease;
+  margin: 20px;
+}
+
+#myButton {
+  background-color: aquamarine;
+  margin: 10px;
+  display: block;
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+}
+
+#circleContainer {
+  position: relative;
+  text-align: center;
+  margin-top: 120px;
+}
+
